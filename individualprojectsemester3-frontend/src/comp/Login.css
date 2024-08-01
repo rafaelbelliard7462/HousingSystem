@@ -1,0 +1,59 @@
+/* Styles for the Login component */
+.Login {
+  display: inline;
+  padding: 20px;
+  font-size: 25px;
+  }
+  
+  .Login label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Use flexbox for the container to align labels and inputs on the same line */
+  .Login .label-input-container {
+    width: 130%;
+    /* justify-content: space-around; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 15px;
+    margin-left: -67px;
+  }
+  
+  .Login .label-input-container label,
+  .Login .label-input-container input {
+    margin-bottom: 20px;
+  }
+  
+  .Login input {
+    border: 2px solid #E5E4E2;
+    color: black;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #E5E4E2;
+    border-radius: 20px;
+  }
+  
+  .Login button {
+    background-color: #E5E4E2;
+    color: black;
+    width: 75%;
+    border: 2px solid #E5E4E2;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .Login button:hover {
+    background-color: #7EB6E0;
+  }
+  
+  .Login a{
+    display: flex;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+ .Login a:hover{
+color: #E5E4E2;
+  }

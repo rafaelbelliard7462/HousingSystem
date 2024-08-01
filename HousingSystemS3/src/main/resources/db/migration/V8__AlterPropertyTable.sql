@@ -1,0 +1,4 @@
+ALTER TABLE property
+ADD COLUMN size  INT NOT NULL
+AFTER price;
+
